@@ -5,6 +5,12 @@
 html{
     padding: 20px 400px;
 }
+h1{
+    font-size: 50px;
+}
+hr{
+    border: 0; clear:both; display:block; width: 96%; background-color: black; height: 1px;
+}
 main{
    display: flex;
    flex-direction: column;
@@ -14,9 +20,10 @@ main{
    align-items: center;
    padding: 20px 40px;
    border-radius: 20px;
+   box-shadow: 1px 10px 10px 1px rgb(222, 222, 222);
+   
 }
 main > section {
-    background-color: aquamarine;
     flex-basis:300px;
     text-align: center;
     margin: 10px;
