@@ -11,8 +11,39 @@ main{
    background-color: bisque;
    justify-content: center;
    align-items: center;
+   padding: 20px 40px;
+   border-radius: 20px;
+}
+main > section {
+    background-color: aquamarine;
+    flex-basis:300px;
+    text-align: center;
+    margin: 10px;
+}
+main > section {
+    display: flex;
+    align-items: center;
+}
+#images{
+    flex-basis: 800px;
 }
 img{
     height: 200px;
-    width: 200px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.flexcontainer2{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.flexcontainer2 > a {
+    flex-basis: 200px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    html{
+        padding: 10px;
+    }
 }
