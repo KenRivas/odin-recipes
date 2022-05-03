@@ -1,3 +1,6 @@
+/* reset css */
+@import "reset.css";
+
 html{
     padding: 20px 400px;
 }
