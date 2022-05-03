@@ -9,8 +9,14 @@ h1{
     font-size: 50px;
 }
 hr{
-    border: 0; clear:both; display:block; width: 96%; background-color: black; height: 1px;
+    border: 0; 
+    clear:both; 
+    display:block; 
+    width: 96%; 
+    background-color: black;
+    height: 1px;
 }
+/*Main content/main flexbox container*/
 main{
    display: flex;
    flex-direction: column;
@@ -33,14 +39,17 @@ main > section {
     display: flex;
     align-items: center;
 }
+/*Resize the third flex item*/
 #images{
     flex-basis: 800px;
 }
+/*Style the images*/
 img{
     height: 200px;
     max-width: 100%;
     border-radius: 10px;
 }
+/*Flexbox inside the first flexbox, contains the images*/
 .flexcontainer2{
     display: flex;
     justify-content: center;
@@ -50,6 +59,7 @@ img{
     flex-basis: 200px;
     margin: 10px;
 }
+/*Styling the text overlay*/
 .container{
     position: relative;
     text-align: center;
@@ -72,12 +82,11 @@ img{
     width: 150px;
     padding: 8px 15px;
     visibility: visible;
-    
    }
 img:hover{
     opacity: 50%;
 }
-
+/*Style for responsiveness*/
 @media only screen and (max-width: 600px){
     html{
         padding: 10px;
