@@ -1,6 +1,13 @@
+html{
+    padding: 20px 400px;
+}
 main{
    display: flex;
    flex-direction: column;
+   height: 600px;
+   background-color: bisque;
+   justify-content: center;
+   align-items: center;
 }
 img{
     height: 200px;
